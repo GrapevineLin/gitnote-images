@@ -114,8 +114,9 @@ export default [
   }
 ];
 ```
- 为了查看效果，我找了文档中的一个实例 Tabbar 的实例代码替换入helleworld.vue：
+为了查看效果，我找了文档中的一个实例 Tabbar 的实例代码替换入helleworld.vue：
 
+```html
 <template>
   <f7-page :page-content="false">
     <f7-navbar title="Tabbar" back-link="Back">
@@ -160,10 +161,7 @@ export default [
     }
   }
 </script>
- 
+```
 
 可以看到framework7是正常起作用的。
-
-至此，就可以开始学习使用framework7了。
-
-
+至此，就可以开始学习使用framework7了。😁
