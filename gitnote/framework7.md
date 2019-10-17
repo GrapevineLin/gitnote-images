@@ -20,8 +20,13 @@ vue init webpack framework7-vue-demo
 ```
 
 安装framework7和framework7-vue
+
+```bash
 npm install framework7
+```
+```bash
 npm install framework7-vue
+```
 
 修改vue文件结构（初始化App）
  官网文档 Initialize App 这一节中的 ES Modules 有相应的指导，我们要修改的文件有index.html、main.js(my-app.js)、  app.vue。 
@@ -33,7 +38,7 @@ npm install framework7-vue
  经实践发现这样子会在chrome移动端调试的时候出现缩放问题，所以我们这样子改：
 
 
-
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -63,10 +68,10 @@ new Vue({
   el: '#app',
   render: (h) => h(App),
 });
+```
 
-
- 比官网给的多了一行导入 Framework7Theme  ，如果没有这个导入将会没有样式效果
-
+比官网给的多了一行导入 Framework7Theme  ，如果没有这个导入将会没有样式效果
+```html
  app.vue：
 <template>
   <f7-app :params="f7params">
@@ -88,6 +93,7 @@ new Vue({
     }
   }
 </script>
+```
  跟官网给的有一处不同即routes的导入，这个根据实际路由文件导入就好了，另外路由文件也和原vue的有所不同，查看文档的 Navigation / Router 这一节，我们将路由文件改为：
 
 import HelloWorld from '@/components/HelloWorld'
