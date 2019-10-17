@@ -105,7 +105,7 @@ export default [
     component:HelloWorld
   }
 ];
-```
+
  为了查看效果，我找了文档中的一个实例 Tabbar 的实例代码替换入helleworld.vue：
 
 <template>
