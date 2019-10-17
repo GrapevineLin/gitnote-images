@@ -14,6 +14,7 @@ Framework7 并不能兼容所有的设备。她只专注于为 iOS 和 Google Ma
 我们采用手动安装（Manual Installation）的方式，首先你的电脑要有vue+webpack的开发环境，然后依次安装framework7和framework7-vue相关依赖，最后修改一下文件结构即可。
 
 初始化一个vue应用
+
 ```bash
 vue init webpack framework7-vue-demo
 ```
