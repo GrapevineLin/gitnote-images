@@ -5,7 +5,7 @@ Framework7 最主要的功能是可以使用HTML、CSS和JS来开发iOS7应用�
 Framework7 并不能兼容所有的设备。她只专注于为 iOS 和 Google Material 设计提供最好的体验。
 **如果你想开发 iOS 或者 Android 混合应用（Phonegap）或者你想开发 iOS 和 Google Material 风格的WEB APP，那么Framework7将会是你的首选。**
 
-![title](https://raw.githubusercontent.com/GrapevineLin/gitnote-images/master/gitnote/2019/10/17/framework-1-1571323546427.png?token=AJMI5HT5RE3FOX65IFQF3WS5VB7NQ)
+![title](https://raw.githubusercontent.com/GrapevineLin/gitnote-images/master/gitnote/2019/10/17/framework-1-1571324811878.png)
 
 首先我们进入Framework7的文档官网，https://framework7.io/vue/installation.html，注意英文文档才是最新的，中文文档则是很久没更新的旧版本。
 
@@ -30,14 +30,13 @@ npm install framework7
 npm install framework7-vue
 ```
 
-![title](https://raw.githubusercontent.com/GrapevineLin/gitnote-images/master/gitnote/2019/10/17/framework-2-1571324708499.png)
-
+![title](https://raw.githubusercontent.com/GrapevineLin/gitnote-images/master/gitnote/2019/10/17/framework-2-1571324822248.png)
 ## 初始化App（修改vue文件结构）
 官网文档 Initialize App 这一节中的 ES Modules 有相应的指导，我们要修改的文件有index.html、main.js(my-app.js)、  app.vue。 
 
 首先是index.html，官网给的是这样子的
 
-![title](https://raw.githubusercontent.com/GrapevineLin/gitnote-images/master/gitnote/2019/10/17/framework-3-1571323829436.png?token=AJMI5HQ5YE3TMHQUAJ2TBFC5VB77G)
+![title](https://raw.githubusercontent.com/GrapevineLin/gitnote-images/master/gitnote/2019/10/17/framework-3-1571324830451.png)
 
  经实践发现这样子会在chrome移动端调试的时候出现缩放问题，所以我们这样子改：
 
