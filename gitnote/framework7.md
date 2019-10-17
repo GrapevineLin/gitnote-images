@@ -63,7 +63,7 @@ npm install framework7-vue
 ```
 
  **main.js：**
-
+```JavaScript
 import Vue from 'vue'
 import Framework7 from 'framework7/framework7.esm.bundle.js'
 import Framework7Vue from 'framework7-vue/framework7-vue.esm.bundle.js'
@@ -78,8 +78,9 @@ new Vue({
 ```
 
 比官网给的多了一行导入 Framework7Theme  ，如果没有这个导入将会没有样式效果
+
+**app.vue：**
 ```html
- app.vue：
 <template>
   <f7-app :params="f7params">
     <f7-view main url="/"></f7-view>
@@ -102,9 +103,9 @@ new Vue({
 </script>
 ```
 
-跟官网给的有一处不同即routes的导入，这个根据实际路由文件导入就好了，另外路由文件也和原vue的有所不同，查看文档的 Navigation / Router 这一节，我们将路由文件改为：
+跟官网给的有一处不同即routes的导入，这个根据实际路由文件导入就好了，另外路由文件也和原vue的有所不同，查看文档的 *Navigation / Router* 这一节，我们将路由文件改为：
 
-```bash
+```JavaScript
 import HelloWorld from '@/components/HelloWorld'
 export default [
   {
@@ -112,7 +113,7 @@ export default [
     component:HelloWorld
   }
 ];
-
+```
  为了查看效果，我找了文档中的一个实例 Tabbar 的实例代码替换入helleworld.vue：
 
 <template>
