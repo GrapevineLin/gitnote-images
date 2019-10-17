@@ -94,17 +94,18 @@ new Vue({
   }
 </script>
 ```
- 跟官网给的有一处不同即routes的导入，这个根据实际路由文件导入就好了，另外路由文件也和原vue的有所不同，查看文档的 Navigation / Router 这一节，我们将路由文件改为：
 
+跟官网给的有一处不同即routes的导入，这个根据实际路由文件导入就好了，另外路由文件也和原vue的有所不同，查看文档的 Navigation / Router 这一节，我们将路由文件改为：
+
+```bash
 import HelloWorld from '@/components/HelloWorld'
 export default [
-
   {
     path:'/',
     component:HelloWorld
   }
 ];
-
+```
  为了查看效果，我找了文档中的一个实例 Tabbar 的实例代码替换入helleworld.vue：
 
 <template>
