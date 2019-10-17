@@ -5,7 +5,7 @@ Framework7 最主要的功能是可以使用HTML、CSS和JS来开发iOS7应用�
 Framework7 并不能兼容所有的设备。她只专注于为 iOS 和 Google Material 设计提供最好的体验。
 **如果你想开发 iOS 或者 Android 混合应用（Phonegap）或者你想开发 iOS 和 Google Material 风格的WEB APP，那么Framework7将会是你的首选。**
 
-![title](https://raw.githubusercontent.com/GrapevineLin/gitnote-images/master/gitnote/2019/10/17/framework-1-1571323354781.png?token=AJMI5HSB3HNV3OBYQJO7W7K5VB7BQ)
+![title](https://raw.githubusercontent.com/GrapevineLin/gitnote-images/master/gitnote/2019/10/17/framework-1-1571323546427.png?token=AJMI5HT5RE3FOX65IFQF3WS5VB7NQ)
 
 首先我们进入Framework7的文档官网，https://framework7.io/vue/installation.html，注意英文文档才是最新的，中文文档则是很久没更新的旧版本。
 
@@ -14,9 +14,9 @@ Framework7 并不能兼容所有的设备。她只专注于为 iOS 和 Google Ma
 我们采用手动安装（Manual Installation）的方式，首先你的电脑要有vue+webpack的开发环境，然后依次安装framework7和framework7-vue相关依赖，最后修改一下文件结构即可。
 
 初始化一个vue应用
-
+```bash
 vue init webpack framework7-vue-demo
-
+```
 
 安装framework7和framework7-vue
 npm install framework7
