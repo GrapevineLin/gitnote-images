@@ -28,6 +28,8 @@ npm install framework7
 npm install framework7-vue
 ```
 
+![title](https://raw.githubusercontent.com/GrapevineLin/gitnote-images/master/gitnote/2019/10/17/framework-2-1571323757633.png?token=AJMI5HSAN3LSYH73OGTGEC25VB72W)
+
 修改vue文件结构（初始化App）
  官网文档 Initialize App 这一节中的 ES Modules 有相应的指导，我们要修改的文件有index.html、main.js(my-app.js)、  app.vue。 
 
