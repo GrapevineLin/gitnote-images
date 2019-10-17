@@ -32,10 +32,10 @@ npm install framework7-vue
 
 ![title](https://raw.githubusercontent.com/GrapevineLin/gitnote-images/master/gitnote/2019/10/17/framework-2-1571323757633.png?token=AJMI5HSAN3LSYH73OGTGEC25VB72W)
 
-修改vue文件结构（初始化App）
- 官网文档 Initialize App 这一节中的 ES Modules 有相应的指导，我们要修改的文件有index.html、main.js(my-app.js)、  app.vue。 
+## 初始化App（修改vue文件结构）
+官网文档 Initialize App 这一节中的 ES Modules 有相应的指导，我们要修改的文件有index.html、main.js(my-app.js)、  app.vue。 
 
- 首先是index.html，官网给的是这样子的
+首先是index.html，官网给的是这样子的
 
 ![title](https://raw.githubusercontent.com/GrapevineLin/gitnote-images/master/gitnote/2019/10/17/framework-3-1571323829436.png?token=AJMI5HQ5YE3TMHQUAJ2TBFC5VB77G)
 
@@ -60,7 +60,10 @@ npm install framework7-vue
   <div id="app"></div>
 </body>
 </html>
- main.js：
+```
+
+ **main.js：**
+
 import Vue from 'vue'
 import Framework7 from 'framework7/framework7.esm.bundle.js'
 import Framework7Vue from 'framework7-vue/framework7-vue.esm.bundle.js'
