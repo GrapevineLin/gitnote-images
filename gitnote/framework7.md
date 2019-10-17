@@ -11,6 +11,7 @@ Framework7 并不能兼容所有的设备。她只专注于为 iOS 和 Google Ma
 
 ---
 
+## 安装
 我们采用手动安装（Manual Installation）的方式，首先你的电脑要有vue+webpack的开发环境，然后依次安装framework7和framework7-vue相关依赖，最后修改一下文件结构即可。
 
 初始化一个vue应用
@@ -35,7 +36,7 @@ npm install framework7-vue
 
  首先是index.html，官网给的是这样子的
 
-
+![title](https://raw.githubusercontent.com/GrapevineLin/gitnote-images/master/gitnote/2019/10/17/framework-3-1571323829436.png?token=AJMI5HQ5YE3TMHQUAJ2TBFC5VB77G)
 
  经实践发现这样子会在chrome移动端调试的时候出现缩放问题，所以我们这样子改：
 
