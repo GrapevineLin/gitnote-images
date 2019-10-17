@@ -9,11 +9,12 @@ Framework7 并不能兼容所有的设备。她只专注于为 iOS 和 Google Ma
 
 首先我们进入Framework7的文档官网，https://framework7.io/vue/installation.html，注意英文文档才是最新的，中文文档则是很久没更新的旧版本。
 
-
+---
 
 我们采用手动安装（Manual Installation）的方式，首先你的电脑要有vue+webpack的开发环境，然后依次安装framework7和framework7-vue相关依赖，最后修改一下文件结构即可。
 
 初始化一个vue应用
+
 vue init webpack framework7-vue-demo
 
 
